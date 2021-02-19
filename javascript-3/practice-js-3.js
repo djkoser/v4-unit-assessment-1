@@ -3,7 +3,7 @@
 
 //CODE HERE
 
-let groceries = ["kale", "tofu","chickpeas"];
+let groceries = ["kale", "tofu", "chickpeas"];
 
 
 //////////////////STEP 2////////////////////
@@ -24,7 +24,7 @@ let yourName = "David Koser";
 //CODE HERE
 
 function setGroceryListTitle(x) {
-    return x+"'s Grocery List";
+    return x + "'s Grocery List";
 }
 
 //////////////////STEP 4////////////////////
@@ -54,7 +54,7 @@ function addItem(item) {
 //CODE HERE
 
 function removeItem(index) {
-    return groceries.splice(index,1);
+    return groceries.splice(index, 1);
 };
 
 //////////////////STEP 6////////////////////
@@ -68,15 +68,18 @@ function removeItem(index) {
     with NUMBEROFGROCERIES replaced by the number of items in your groceries array.
 */
 
-function checkGroceryCount(groceries) {
-    if (groceries.length<=1) {
-        return groceries.length+'item'
-    } else if (groceries.length >=1 && groceries.length <=5) {
-        return groceries.length+" items"
+function checkGroceryCount() {
+    if (groceries.length === 1) {
+        return "1 item";
+    } else if (groceries.length > 1 && groceries.length <= 5) {
+        return groceries.length+" items";
     } else {
-        return 'That looks like a big trip'
-    }
-}//CODE HERE
+        return "That looks like a big trip";
+    };
+};
+
+
+//CODE HERE
 //////////////////Check out your code!////////////////////
 /*
     Open javascript-3/DO_NOT_EDIT/index.html in your browser.
