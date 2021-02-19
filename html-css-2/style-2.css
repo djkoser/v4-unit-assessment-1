@@ -1,0 +1,121 @@
+header {
+    background-color: #89FCD6; 
+    width:95vh;
+    height: 70px;
+    padding:13px;
+}
+
+img {
+    display:inline-block;
+}
+article {
+    box-sizing: content-box;
+    width: 90vh;
+    border:dotted black;
+    padding: 30px;
+}
+
+.recs {
+    display:inline-block;
+    margin-right: 30px;
+}
+#recPurp {
+    background-color:#48187F;
+    width:300px;
+    height:100px;
+    border: solid red thick;
+}
+
+#recBlue {
+    background-color:#0035F8;
+    box-shadow: black 10px 5px 5px;
+    height: 100px;
+    width: 100px;
+}
+
+#recPink {
+    background-color: #D77493;
+    border: solid black;
+    height: 300px;
+    width: 300px;
+}
+
+.snowman{
+    border-radius:50%;
+    border:solid black;
+}
+
+#snowT {
+    height: 75px;
+    width: 75px;
+    margin-left: 50px;
+}
+
+#snowM {
+    height: 120px;
+    width: 120px;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+#snowB {
+    height: 200px;
+    width: 200px;
+}
+
+.coal {
+    width:20px;
+}
+
+#c1 {
+    margin-top:20px;
+    margin-left:10px;
+}
+
+#c3 {
+    width:30px;
+    margin-left: 5px;
+}
+
+#c4, #c5, #c6 {
+    display:block;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#eYellow{
+    background-color:#F5F4DE;
+    height:300px;
+    width:300px;
+    border: solid black thin;
+}
+#eGreen{
+    background-color: #1C7D1A;
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    border: solid black thin;
+}
+#eBrown{
+    background-color: #A22F2E;
+    height:120px;
+    width:120px;
+    margin:40px;
+    color: white;
+    text-align: center;
+}
+#eBlue{
+    background-color: #0035F8;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+}
+#fish {
+    height: 50px;
+    vertical-align:center;
+    display:inline-block;
+}
+
+
+
+
