@@ -68,19 +68,15 @@ function removeItem(index) {
     with NUMBEROFGROCERIES replaced by the number of items in your groceries array.
 */
 
-//CODE HERE
-
-function checkGroceryCount(array) {
-    if (array.length > 5) {
-        return 'That looks like a big trip';
-    } else if (array.length === 1) {
-        return '1 item';
-    } else if (array.length > 1 && array.length <= 5) {
-        return `${array.length} items`;
+function checkGroceryCount(groceries) {
+    if (groceries.length<=1) {
+        return groceries.length+'item'
+    } else if (groceries.length >=1 && groceries.length <=5) {
+        return groceries.length+" items"
+    } else {
+        return 'That looks like a big trip'
     }
-}
-
-
+}//CODE HERE
 //////////////////Check out your code!////////////////////
 /*
     Open javascript-3/DO_NOT_EDIT/index.html in your browser.
