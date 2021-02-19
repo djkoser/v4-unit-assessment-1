@@ -246,7 +246,7 @@ function isItBob (object,cb) {
 
 //CODE HERE
 function giveMeDoubles (array,cb){
-  for (i=0; array.length; i++) {
+  for (i=0; i<array.length; i++) {
     array[i]=array[i]*2;
   }
   return cb(array);
@@ -277,3 +277,17 @@ function giveMeDoubles (array,cb){
 */
 
 //CODE HERE
+
+function carFactory(make,model,year) {
+  var obj = {
+    make,
+    model,
+    year
+  }; 
+  if (obj.year>2018) {
+    obj.isNew =true;
+  } else if (obj.year<=2018) {
+    obj.isNew=false;
+  }
+  return obj;
+};
