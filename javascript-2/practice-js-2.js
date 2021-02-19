@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = "Git (as opposed to the gitHub repository) is a tool which which enables efficient document change tracking and version control. It works using a branch system whereby new branches, or code copies, are pulled from a main branch, modified to add features, and eventually merged back into the main branch. Previous branches can also be accessed to enable backtracking if code is broken. The basic workflow includes making changes, adding changes to the staging area, committing changes and subsequently pushing these to the gitHub repository for backup and cross-location collaboration."
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = "gitHub is an online platform that allows commits made in a local git repository to be pushed and subsequently backed up into the cloud for cross-location collaboration and backup purposes."
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -35,6 +39,11 @@
 
 //CODE HERE
 
+let init = {
+    description: "The init command initializes a local git repository on one's computer",
+    code:'git init'
+}
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -43,6 +52,10 @@
 
 //CODE HERE
 
+let clone = {
+    description: "The clone command makes a copy of a repository from gitHub or another directory within one's working directory and links it to this remote repository.",
+    code: "git clone url/directory"
+}
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,6 +63,11 @@
 */
 
 //CODE HERE
+
+let status = {
+    description: "The status command indicates which files have been changed and which of these have been added to the staging area and are ready to be commited", 
+    code: "git status"
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -59,6 +77,11 @@
 
 //CODE HERE
 
+let add = {
+    description: "The add command addes specified files that have undergone changes to the staging area to be subsequently committed",
+    code: "git add filename.txt or . (adds all changed files)"
+}
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,6 +89,11 @@
 */
 
 //CODE HERE
+
+let commit = {
+    description: "The commit command commits changes made to the files in the staging area, with comments pertaining to these changes, to one's local git repository, and more specifically, the active branch or HEAD", 
+    code: "git commit -m 'Commit message indicating changes'"
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,6 +103,10 @@
 
 //CODE HERE
 
+let addRemote = {
+    description: 'The addRemote command links a local git repository to a gitHub repository, effectively making this "remote" repository the new master branch and enabling gitHub features.', 
+    code: 'git remote add origin https://github.com/etc.'
+}
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +114,7 @@
 */
 
 //CODE HERE
+ let push = {
+    description: "The push command syncs commits made to one's local git repository with the remote gitHub repository, enabling gitHub features", 
+    code: "git push"
+ }
